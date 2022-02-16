@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body,
+button {
+    font-family: "Poppins", sans-serif;
 }
 
 .contanier {
@@ -52,19 +58,22 @@ button {
 
 .btn {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
     font-size: 2rem;
+    border-radius: 50%;
+    padding: 1rem;
 }
 
 .sign {
-    border-radius: 50%;
     background-color: gainsboro;
-    padding: 0.5rem;
 }
 
 .btn0 {
     grid-column: 1/4;
+    justify-self: center;
 }
 
 .blue {
