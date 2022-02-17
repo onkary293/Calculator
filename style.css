@@ -23,6 +23,7 @@ button {
     flex-direction: column;
     border: 1px solid #000;
     padding: 1rem;
+    width: 23%;
 }
 
 .calcu__input {
@@ -35,6 +36,7 @@ button {
 
 #output {
     font-size: 3rem;
+    overflow: auto;
 }
 
 #history-value,
